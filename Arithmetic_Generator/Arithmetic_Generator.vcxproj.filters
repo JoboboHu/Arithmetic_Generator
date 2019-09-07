@@ -24,12 +24,30 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="arithmetic_expression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="add_sub_expression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="expression_factory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Arithmetic_Generator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="arithmetic_expression.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_sub_expression.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="expression_factory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
